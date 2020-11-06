@@ -1,0 +1,50 @@
+body {
+    background-color: palegreen;
+    color:#414141;  /*Gris oscuro*/
+    font-size: 18px; 
+    text-align: left;   /*El texto se alinea a la izquierda*/
+    text-decoration: none;  /*Sin decoraciones adicionales*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  /*Tipo de texto*/
+}
+h1, h2 {
+    color: blue;
+    background-color: #808000;  /*Lima*/
+    padding: 20px;
+    text-align: center; /*El texto se alinea hacia el centro*/
+    border: 2px solid #5D6063; 
+    border-radius: 10px;
+}
+div {
+    color: brown;
+    background-color: #DDE0E3;  /*Gris claro*/
+    display: inline;
+    width: 40px;
+    margin: 10% auto;  /*Posición vertical y horizontal*/
+}
+em, strong {
+    background-color: #B2D6FF;  /*Azul claro*/
+    display: inline;
+    margin: 10px;
+}
+#listadesordenada  {
+    background-color: pink;
+}
+strong  {
+    margin: 40px;   /*Hay un margen de 40 pixeles en todas las entidades en negrita*/
+}
+.Potente{
+    background-color: pink; /*La etiqueta no tiene nada que ver con su funcionamiento, es por estetica*/
+}
+table   {
+    border-collapse: collapse;
+    border: #800000;    /*Marrón*/
+}
+ol  {
+    list-style-type: decimal;   /*El estilo de la lista es decimal; es decir numeros como 1,2,3*/
+    list-style-position: inside;
+}
+#enlace5:hover {
+        color: greenyellow;
+        text-decoration: underline;
+        /*El cambio de estilo en este caso es perder el 2 de la lista ordenada :)*/
+}
